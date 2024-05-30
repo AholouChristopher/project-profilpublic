@@ -4,11 +4,12 @@
 			<div class="flex items-center basis-1/2 max-lg:mb-5">
 				<h1 class="text-2xl font-bold md:text-3xl lg:text-4xl max-lg:text-center max-lg:mx-auto" >Trouver un job <br class="max-lg:hidden"/>dans le secteur Public</h1>
 			</div>
-			<div class="flex basis-1/2" style="background-color: #58d9db; border-radius: 10px;padding: 10px">
+			<div class="flex basis-1/2 relative" style="background-color: #58d9db; border-radius: 10px;padding: 10px">
 				<div class="flex flex-col justify-center" style="width:100%; padding:1rem;">
 					<input type="text" placeholder="Votre prochain job ?">
 					<input type="text" placeholder="Où ?" style="width: 60%;">
 				</div>
+				<button style="position: absolute; top:85%; left:10%; width: 25%; height:3rem ;background: linear-gradient(white, #58d9db );border-radius: 10px; font-weight: bold;"> Voir les jobs</button>
 			</div>
 		</div>
 	</div>
@@ -21,7 +22,6 @@
 		</div>
 	</div>
 </template>
-<!-- Probleme de card donc probléme de footer-->
 <script>
 	import Card from '~/components/Card.vue';
 	export default {

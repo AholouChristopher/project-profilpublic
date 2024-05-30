@@ -66,7 +66,7 @@
 						</ul>
 					</div>
 					<div class="col-start-5 col-end-8 max-lg:col-start-4 max-lg:col-end-8 max-sm:row-start-1 max-sm:col-start-1 max-sm:col-end-8" style="width: 85%;">
-						<h3 class="text-base font-bold">LA NEWSLETTER D’INTÉRÊT GÉNÉRAL</h3>
+						<h3 class="text-base font-bold">LA NEWSLETTER D'INTÉRÊT GÉNÉRAL</h3>
 						<p class=" mt-4">
 							Tous les samedis, des conseils & articles secteur public dans votre boîte mail.
 						</p>

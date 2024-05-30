@@ -65,20 +65,20 @@
 </template>
 
 <script setup>
-import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/vue/24/outline'
+  import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
+  import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/vue/24/outline'
 
-const navigation = [
-  { name: 'Les jobs', href: '/', current: false },
-  { name: 'Les employeurs', href: '/lesemployeurs', current: false },
-  { name: 'Team', href: '/', current: false },
-  { name: 'Qui sommes-nous', href: '/quisommesnous', current: false },
-]
+  const navigation = [
+    { name: 'Les jobs', href: '/', current: false },
+    { name: 'Les employeurs', href: '/lesemployeurs', current: false },
+    { name: 'Team', href: '/', current: false },
+    { name: 'Qui sommes-nous', href: '/quisommesnous', current: false },
+  ]
 </script>
 
 <style scoped>
-a{
-  color:black;
-  opacity: 0.7;
-}
+  a{
+    color:black;
+    opacity: 0.7;
+  }
 </style>
