@@ -2,7 +2,7 @@
     <div class="card w-84 md:w-96 bg-base-100 shadow-xl" style="margin: 2rem 0.55rem 0.55rem 0.55rem;">
         <figure><img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
         <div class="card-body">
-            <h2 class="card-title">
+            <h2 class="card-title" style="height: 5rem;">
                 {{tabDataApiJob.title}}
                 <div class="badge" style="background-color:#58d9db; color:white">NEW</div>
             </h2>

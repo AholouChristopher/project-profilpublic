@@ -17,7 +17,7 @@
 		<div>
 			<h3 class="text-3xl font-bold">{{dataAPI.length}} offres</h3>
 			<div class="flex flex-wrap justify-center">
-				<Card  class="  mt-6" v-for="job,index in dataAPI" :key="index" :tabDataApiJob="job" />
+				<NuxtLink v-for="job,index in dataAPI" :key="index" :to="`/jobs/${formatTitle(job.title)}`"><Card  class="mt-6" style="height: 30rem" :key="index" :tabDataApiJob="job" /></NuxtLink>
 			</div>
 		</div>
 	</div>
@@ -42,6 +42,12 @@
 					this.dataAPI = res.data;
 					console.log(this.dataAPI);
 				});
+			},
+			formatTitle(title) {
+				// Normalisation des accents
+				let normalizedTitle = title.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+				// Remplacer les espaces et / par des tirets
+				return normalizedTitle.replace(/\s+/g, '-').replace(/\//g, '-').toLowerCase();
 			}
 		}
 	}
