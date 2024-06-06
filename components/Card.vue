@@ -8,7 +8,7 @@
             </h2>
             <p>Bouygue Telecom</p>
             <div class="card-actions justify-end">
-                <div class="badge badge-outline">Paris</div> 
+                <div class="badge badge-outline">Toulouse</div> 
                 <div class="badge badge-outline">  {{tabDataApiJob.type}}</div>
             </div>
         </div>
